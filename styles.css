@@ -16,13 +16,15 @@ body{
     height: 40px;
     background-color: rgb(165, 165, 165);
     /* For Safari */
-    -webkit-mask-image: url("Trigologo2.svg");
+    -webkit-mask-image: url("TrigoLogo3.svg");
       /* For Firefox */
-    mask-image: url("Trigologo2.svg");
+    mask-image: url("TrigoLogo3.svg");
     background-repeat: no-repeat;
     mask-size: contain;
     background-blend-mode: multiply;
 }
+
+
 
 .Rect:hover {
     background-color: #FF9100; /* Changes the color of the SVG on hover */
