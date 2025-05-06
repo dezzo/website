@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+}
+
+.RectWrapper{
+    display: inline-block;
+    border-width: thin;
+    border-color: rgb(181, 181, 181);
+    border-style: solid;
+  
+}
+
+.Rect{
+    margin: 6px;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(165, 165, 165);
+    /* For Safari */
+    -webkit-mask-image: url("Trigologo2.svg");
+      /* For Firefox */
+    mask-image: url("Trigologo2.svg");
+    background-repeat: no-repeat;
+    mask-size: contain;
+    background-blend-mode: multiply;
+}
+
+.Rect:hover {
+    background-color: #FF9100; /* Changes the color of the SVG on hover */
+}
+
